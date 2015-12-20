@@ -1,0 +1,12 @@
+Source: pyjwt
+Maintainer: Adam Jacob Muller <adam@isprime.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-jwt
+Architecture: amd64
+Depends: 
+X-Python-Version: 2.7
+Description: JSON Web Token implementation in Python
